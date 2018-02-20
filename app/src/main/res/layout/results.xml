@@ -1,0 +1,78 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bottom_picture" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grass"
+        android:orientation="vertical">
+
+        <com.example.android.fastestanimalsquiz.CustomFontTextView
+            android:id="@+id/results_sentence"
+            style="@style/AnswerStyle"
+            android:text="@string/results_sentence"
+            android:textSize="@dimen/text_results"
+            android:visibility="gone" />
+
+        <com.example.android.fastestanimalsquiz.CustomFontTextView
+            android:id="@+id/right_answer_1"
+            style="@style/AnswerStyle" />
+
+        <com.example.android.fastestanimalsquiz.CustomFontTextView
+            android:id="@+id/right_answer_2"
+            style="@style/AnswerStyle" />
+
+        <com.example.android.fastestanimalsquiz.CustomFontTextView
+            android:id="@+id/right_answer_3"
+            style="@style/AnswerStyle" />
+
+        <com.example.android.fastestanimalsquiz.CustomFontTextView
+            android:id="@+id/right_answer_4"
+            style="@style/AnswerStyle" />
+
+        <com.example.android.fastestanimalsquiz.CustomFontTextView
+            android:id="@+id/right_answer_5"
+            style="@style/AnswerStyle" />
+
+        <com.example.android.fastestanimalsquiz.CustomFontTextView
+            android:id="@+id/right_answer_6"
+            style="@style/AnswerStyle" />
+
+        <com.example.android.fastestanimalsquiz.CustomFontTextView
+            android:id="@+id/right_answer_7"
+            style="@style/AnswerStyle" />
+
+        <com.example.android.fastestanimalsquiz.CustomFontTextView
+            android:id="@+id/right_answer_8"
+            style="@style/AnswerStyle" />
+
+        <com.example.android.fastestanimalsquiz.CustomFontTextView
+            android:id="@+id/total_result"
+            style="@style/AnswerStyle"
+            android:textSize="@dimen/text_results"
+            android:paddingTop="@dimen/small_gap"
+            android:paddingBottom="@dimen/medium_text"/>
+        <Button
+            android:id="@+id/recreateActivity"
+            style="@style/ButtonStyle"
+            android:background="@color/colorAccent"
+            android:text="@string/restartButton"
+            android:onClick="recreateActivity"
+            android:visibility="gone" />
+
+        <com.example.android.fastestanimalsquiz.CustomFontTextView
+            android:id="@+id/conclusion"
+            style="@style/AnswerStyle"
+            android:text="@string/conclusion"
+            android:visibility="gone"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+    </LinearLayout>
+
+</merge>

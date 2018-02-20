@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fastest_animals_quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.android.fastestanimalsquiz.FastestAnimalsQuiz">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/lightSkyBlue"
+        android:orientation="vertical">
+
+        <include layout="@layout/header" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/small_gap"
+            android:layout_marginTop="@dimen/small_gap">
+
+            <include layout="@layout/dot_under_cloud" />
+
+            <View
+                android:layout_width="@dimen/small_gap"
+                android:layout_height="match_parent" />
+
+            <include layout="@layout/dot_under_cloud" />
+
+            <View
+                android:layout_width="@dimen/small_gap"
+                android:layout_height="match_parent" />
+
+            <include layout="@layout/dot_under_cloud" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/medium_gap"
+            android:layout_marginRight="@dimen/medium_gap"
+            android:orientation="vertical">
+
+            <com.example.android.fastestanimalsquiz.CustomFontTextView
+                style="@style/HeaderQuestion"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:text="@string/first_quastion" />
+
+            <include layout="@layout/title_line" />
+
+            <EditText
+                android:id="@+id/answer_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/edit_field_hint"
+                android:textSize="@dimen/medium_text" />
+
+            <com.example.android.fastestanimalsquiz.CustomFontTextView
+                style="@style/HeaderQuestion"
+                android:text="@string/second_question" />
+
+            <include layout="@layout/title_line" />
+
+            <include layout="@layout/second_question" />
+
+
+            <com.example.android.fastestanimalsquiz.CustomFontTextView
+                style="@style/HeaderQuestion"
+                android:text="@string/third_question" />
+
+            <include layout="@layout/title_line" />
+
+            <include layout="@layout/third_question" />
+
+
+            <com.example.android.fastestanimalsquiz.CustomFontTextView
+                style="@style/HeaderQuestion"
+                android:text="@string/fourth_question" />
+
+            <include layout="@layout/title_line" />
+
+            <include layout="@layout/fourth_question" />
+
+
+            <com.example.android.fastestanimalsquiz.CustomFontTextView
+                style="@style/HeaderQuestion"
+                android:text="@string/fifth_question" />
+
+            <include layout="@layout/title_line" />
+
+            <include layout="@layout/fifth_question" />
+
+            <com.example.android.fastestanimalsquiz.CustomFontTextView
+                style="@style/HeaderQuestion"
+                android:text="@string/sixth_question" />
+
+            <include layout="@layout/title_line" />
+
+            <include layout="@layout/sixth_question" />
+
+            <com.example.android.fastestanimalsquiz.CustomFontTextView
+                style="@style/HeaderQuestion"
+                android:text="@string/seventh_question" />
+
+            <include layout="@layout/title_line" />
+
+            <include layout="@layout/seventh_question" />
+
+            <com.example.android.fastestanimalsquiz.CustomFontTextView
+                style="@style/HeaderQuestion"
+                android:text="@string/eighth_question" />
+
+            <include layout="@layout/title_line" />
+
+            <include layout="@layout/eigth_question" />
+
+        </LinearLayout>
+
+        <Button
+            style="@style/ButtonStyle"
+            android:background="@color/colorAccent"
+            android:onClick="checkResults"
+            android:text="@string/button" />
+
+        <include layout="@layout/results" />
+    </LinearLayout>
+</ScrollView>

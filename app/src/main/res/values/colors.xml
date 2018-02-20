@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="lightSkyBlue">#99CCFF</color>
+    <color name="errorMessage">#cc0000</color>
+    <color name="darkGreenText">#1E4620</color>
+    <color name="grass">#01CC08</color>
+</resources>

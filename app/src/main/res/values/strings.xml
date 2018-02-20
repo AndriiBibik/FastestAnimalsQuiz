@@ -1,0 +1,70 @@
+<resources>
+
+    <string name="app_name">FastestAnimalsQuiz</string>
+    <string name="title">Do you know which animals are the
+            fastest in the world? Let\'s check it together!</string>
+    <string name="first_quastion">1. Your guess in which animal is fastest...</string>
+    <string name="edit_field_hint">Your guess...</string>
+    <string name="second_question">2. Which is the fastest bird?</string>
+    <string name="third_question">3. Which is the fastest mammal?</string>
+    <string name="fourth_question">4. Which is the fastest fish?</string>
+    <string name="fifth_question">5. Which is the fastest insect?</string>
+    <string name="sixth_question">6. Which animal can brake 100 km/h barrier?</string>
+    <string name="seventh_question">7. Who is faster?</string>
+    <string name="eighth_question">8. Which one is a better swimmer?</string>
+    <string name="button">Check it up! ;)</string>
+    <string name="results_sentence">~~Here is your results~~</string>
+    <string name="conclusion">If you like to learn more in this topic you can search in Wikipedia or
+        in other sources</string>
+    <string name="restartButton">Try again...</string>
+
+    <string name="answer_1">peregrin falcon</string>
+
+    <string name="answer_2_1">Golden eagle</string>
+    <string name="answer_2_2">Eurasian hobby</string>
+    <string name="answer_2_3">Peregrin falcon</string>
+    <string name="answer_2_4">Adelie penguin</string>
+
+    <string name="answer_3_1">Cheetah</string>
+    <string name="answer_3_2">Pronghorn</string>
+    <string name="answer_3_3">Mexican free tailed bat</string>
+    <string name="answer_3_4">Zebra</string>
+
+    <string name="answer_4_1">Blue shark</string>
+    <string name="answer_4_2">Sailfish</string>
+    <string name="answer_4_3">Striped merlin</string>
+    <string name="answer_4_4">Black merlin</string>
+
+    <string name="answer_5_1">Male horse-fly</string>
+    <string name="answer_5_2">Black cutworm</string>
+    <string name="answer_5_3">Green darner dragonfly</string>
+    <string name="answer_5_4">Dear botfly</string>
+    <string name="answer_5_5">Wasp</string>
+
+    <string name="answer_6_1">Male horse-fly</string>
+    <string name="answer_6_2">Pronghorn</string>
+    <string name="answer_6_3">Golden eagle</string>
+    <string name="answer_6_4">Black merlin</string>
+    <string name="answer_6_5">None of them</string>
+
+    <string name="answer_7_1">Elephant</string>
+    <string name="answer_7_2">Bear</string>
+    <string name="answer_7_3">Hare</string>
+    <string name="answer_7_4">Turtle</string>
+    <string name="answer_7_5">All of them are to slow to compare</string>
+
+    <string name="answer_8_1">Cheetah</string>
+    <string name="answer_8_2">Adelie penguin</string>
+    <string name="answer_8_3">Zebra</string>
+    <string name="answer_8_4">Elephant</string>
+    <string name="suggestion_to_answer_1">Give answer for the 1 question.</string>
+    <string name="suggestion_to_answer_2">Give answer for the 2 question.</string>
+    <string name="suggestion_to_answer_3">Give answer for the 3 question.</string>
+    <string name="suggestion_to_answer_4">Give answer for the 4 question.</string>
+    <string name="suggestion_to_answer_5">Give answer for the 5 question.</string>
+    <string name="suggestion_to_answer_6">Give answer for the 6 question.</string>
+    <string name="suggestion_to_answer_7">Give answer for the 7 question.</string>
+    <string name="suggestion_to_answer_8">Give answer for the 8 question.</string>
+
+</resources>
+

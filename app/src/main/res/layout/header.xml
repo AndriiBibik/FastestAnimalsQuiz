@@ -1,0 +1,39 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/sun_size"
+            android:layout_height="@dimen/sun_size"
+            android:src="@drawable/sun" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/large_gap">
+
+                <ImageView
+                    android:layout_width="@dimen/cloud_w"
+                    android:layout_height="@dimen/cloud_h"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/cloud" />
+
+                <com.example.android.fastestanimalsquiz.CustomFontTextView
+                    android:layout_width="@dimen/cloud_text_w"
+                    android:layout_height="@dimen/cloud_text_h"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/title"
+                    android:textSize="@dimen/cloud_text" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

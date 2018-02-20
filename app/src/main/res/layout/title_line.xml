@@ -1,0 +1,8 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:layout_marginTop="@dimen/small_gap"
+        android:layout_marginBottom="@dimen/small_gap"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/xsmall_gap"
+        android:background="@color/colorAccent"/>
+</merge>

@@ -1,0 +1,17 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <ImageView
+            android:layout_width="@dimen/large_gap"
+            android:layout_height="@dimen/large_gap"
+            android:src="@drawable/cloud_dot"/>
+        <com.example.android.fastestanimalsquiz.CustomFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            android:textSize="@dimen/medium_text"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</merge>

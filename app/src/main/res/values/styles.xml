@@ -1,0 +1,66 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="colorAccent">#4CAF50</item>
+        <item name="android:textColor">#2B388F</item>
+    </style>
+
+    <!-- Style for header question -->
+    <style name="HeaderQuestion">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/midle_small_gap</item>
+        <item name="android:textSize">@dimen/text_results</item>
+    </style>
+
+    <!-- Radiobutton style -->
+    <style name="RudioButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/image_size</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">@dimen/small_gap</item>
+        <item name="android:paddingBottom">@dimen/small_gap</item>
+        <item name="android:buttonTint">@color/colorAccent</item>
+    </style>
+
+    <!-- Radiobutton text style -->
+    <style name="RudioButtonText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/image_size</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/small_gap</item>
+    </style>
+
+    <!-- Style for button -->
+    <style name="ButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:minHeight">@dimen/zero_dp</item>
+        <item name="android:minWidth">@dimen/zero_dp</item>
+        <item name="android:padding">@dimen/small_gap</item>
+        <item name="android:layout_marginTop">@dimen/large_gap</item>
+        <item name="android:textColor">@color/darkGreenText</item>
+        <item name="android:layout_marginBottom">@dimen/medium_gap</item>
+    </style>
+
+    <!-- Answer layout style -->
+    <style name="AnswerStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/darkGreenText</item>
+        <item name="android:padding">@dimen/small_gap</item>
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <!-- ImageView Style-->
+    <style name="ImageVStyle">
+        <item name="android:layout_width">@dimen/image_size</item>
+        <item name="android:layout_height">@dimen/image_size</item>
+        <item name="android:padding">@dimen/small_gap</item>
+    </style>
+</resources>
